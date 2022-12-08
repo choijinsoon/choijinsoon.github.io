@@ -1,12 +1,14 @@
 ---
-title: Post with Header Image
-tags: TeXt
-article_header:
-  type: cover
-  image:
-    src: /screenshot.jpg
+title: 나의 첫 깃허브 페이지
+tags: spring github
 ---
 
-A Post with Header Image, See [Page layout](https://kitian616.github.io/jekyll-TeXt-theme/samples.html#page-layout) for more examples.
+```java
 
-<!--more-->
+public static void main(String[] args){
+
+
+
+}
+
+```
