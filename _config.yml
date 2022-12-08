@@ -22,7 +22,7 @@ url     : https://choijinsoon.github.io # the base hostname & protocol for your 
 baseurl : ""# does not include hostname
 title   : Github Page choijinsoon
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  welcome
 
 
 ## => Language and Timezone
@@ -49,7 +49,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : https://github.com/choijinsoon # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : choijinsoon # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
@@ -214,6 +214,10 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+        - scope:
+      path: "assets"
+      values:
+      image:true
 
 
 ## => Plugins
