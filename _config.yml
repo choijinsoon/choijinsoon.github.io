@@ -214,10 +214,9 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
-        - scope:
-      path: "assets"
-      values:
-      image:true
+  - scope:
+    path: "assets"
+    image: true
 
 
 ## => Plugins
